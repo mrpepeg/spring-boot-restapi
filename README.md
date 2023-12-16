@@ -43,4 +43,5 @@ Here are some endpoints you can call:
    - 422 :  "message": "Payment declined.Amount required for this user is not the same."
 
 HOW TO RUN UNIT TEST:
+
 To run the unit test for checking whether the logic is correct or wrong , open file src\test\java\com\example\demo\UserPaymentApplicationTests.java, and then run class validatePaymentAPI_unregistereduser(). This unit test to check when we input unregistered user, it will give a result 404 which is not found.
